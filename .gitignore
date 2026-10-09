@@ -1,0 +1,32 @@
+# Сборка
+build/
+build*/
+out/
+*.o
+*.a
+*.so
+*.exe
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+*.cmake
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Локальные данные и артефакты
+*.db
+*.db-wal
+*.db-shm
+backups/
+*.log
+*.tmp
+
+# Временные/скачанные зависимости (FetchContent пересоздаёт)
+_deps/
+third_party/
